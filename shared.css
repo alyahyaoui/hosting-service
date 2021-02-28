@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Advent+Pro:wght@500&display=swap');
+
+/* Declaring the global variables */
+:root {
+	--primary: #e67e22;
+	--secondary: #34495e;
+}
+/* Proprieties that will be applied for all the documents */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/* General propreties that will inherited */
+body {
+	background:var(--secondary);
+}
+a {
+	color: var(--secondary);
+	text-decoration: none;
+	font-size: 1.5em;
+}
+h1,
+a {
+	font-family: 'Acme', sans-serif;
+}
+.main-header {
+	background: var(--primary);
+	box-shadow: -2px 2px 2px 2px #0008;
+}
+.main-header div,
+.main-nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main-header div a {
+	font-size: 3em;
+	font-weight: bold;
+	margin: 0.2em;
+}
+.main-nav {
+	width: calc(100% - 300px);
+	text-align: right;
+}
+.main-nav__item {
+	list-style: none;
+	display: inline-block;
+	margin: 24px;
+}
+.main-nav__item a:hover {
+	border-bottom: 5px solid #fff;
+	padding-bottom: 3px;
+}
+#product-overview {
+color: white;
+background: var(--secondary);
+  height: 500px;
+}
+.plan__list {
+	width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.section-title {
+color: #fff;
+  text-align: center;
+}
+.plan {
+	vertical-align: middle;
+	box-shadow: 2px 2px 2px 2px #0008;
+  border-radius: 4px;
+	background: var(--primary);
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	margin: auto;
+}
+.plan--highlighted {
+  color:#fff
+}
+li {
+  list-style: none;
+}
+.key-feature {
+
+  display: inline-block;
+
+margin:  auto;
+}
+.key-feature__image {
+  height: 100px;
+  width: 100px;
+  background: #fff;
+  border-radius: 50%;
+}
+.key-feature__list {
+  margin: auto;
+  width: 80%;
+}
+.key-feature__description {
+  
+  text-align: center;
+}
+.main-footer {
+  background: var(--primary);
+}
